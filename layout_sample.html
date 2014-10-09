@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>命名一下標題</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+    <style>
+.boardme {
+  padding: 3px 5px;
+  margin: 20px 0px 0px 0px;
+}
+.hr_me{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #5A5A5A;
+
+}
+.hr_me_content{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #A0A0A0;
+
+}
+    </style>
+</head>
+
+<body>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+                <h1> php 存取檔案 by json format</h1>
+			<div class="row clearfix">
+				<div class="col-md-6 column">
+					<form role="form">
+                        <div class="form-group">
+                             <label>username:</label>
+                             <input type="text" class="form-control" require>
+                        </div>
+						<div class="form-group">
+							 <label>message:</label>
+                             <input type="text" class="form-control" >
+						</div>
+                        <input type="submit" class="btn btn-success btn-lg">
+					</form>
+				</div>
+			</div>
+
+
+			<div class="jumbotron boardme">
+                <h2> <b>  訪客留言</b>  </h2>
+                <hr class="hr_me">
+                <span class="badge">username:</span>
+                <label>username:</label>    <br>
+                <span class="badge">message::</span>
+                <label>message::</label>    <br>
+                <hr class="hr_me_content">
+                <span class="badge">username:</span>
+                <label>username:</label>    <br>
+                <span class="badge">message::</span>
+                <label>message::</label>    <br>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
